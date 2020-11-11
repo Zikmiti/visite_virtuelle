@@ -21,3 +21,21 @@ milieuCouloir.link( i17, new THREE.Vector3(-790.09, 444.45, 4908.42));
 
 // de 6_2 à 6
 i17.link( milieuCouloir, new THREE.Vector3(2783.95, -432.74, -4121.67));
+
+// de 4 à 5
+exterieur2.link( debutCouloir, new THREE.Vector3(3956.38, -706.23, 2965.04));
+
+// de 5 à 4
+debutCouloir.link( exterieur2, new THREE.Vector3(-4357.17, -254.25, 2424.96));
+
+// de 2 à 10
+couloirMer.link( hautEscalier, new THREE.Vector3(-487.71, -364.50, 4960.12));
+
+// de 10 à 2
+hautEscalier.link( couloirMer, new THREE.Vector3(-3501.82, -342.25, -3540.56));
+
+// de 11 à 12
+basEscalier.link( parkingExt, new THREE.Vector3(3584.01, -663.40, -3410.28));
+
+// de 12 à 11
+parkingExt.link( basEscalier, new THREE.Vector3(-4927.64, 747.21, -285.02));
